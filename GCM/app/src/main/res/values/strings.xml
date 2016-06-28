@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GCM</string>
+    <string name="gcm_sender_id">sender_id</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

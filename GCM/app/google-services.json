@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "84128695816",
+    "project_id": "gcmapp-1300"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84128695816:android:d8ba7d40d1b9bd93",
+        "android_client_info": {
+          "package_name": "com.example.varsha.gcm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYS-jBCFskHT7b_6hIDCFey228PzQuI1A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00264d"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.cmpe277.varshajayadev.activitylifecycle.MainActivity"
+    tools:showIn="@layout/activity_activity_">
+
+
+        <TextView android:id="@+id/activity_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACTIVITY A"
+            android:textSize="13pt"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"/>
+
+<LinearLayout
+android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+    android:layout_weight="1">
+        <Button
+            android:layout_marginTop="15pt"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/start_activity_b"
+            android:onClick="start_activity_b"/>
+        <Button
+            android:layout_marginTop="15pt"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog"
+            android:onClick="dialog" />
+</LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView android:id="@+id/thread_count1"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:textSize="10pt"
+            android:textColor="#ffffff"
+            android:text="Thread Counter: " />
+        <TextView android:id="@+id/thread_count2"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:textSize="10pt"
+            android:textColor="#ffffff"
+            android:text="00"/>
+        </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        >
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/close_app"
+            android:onClick="close_app"
+            android:gravity="center"/>
+</LinearLayout>
+</LinearLayout>
